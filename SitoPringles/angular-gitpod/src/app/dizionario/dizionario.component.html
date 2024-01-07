@@ -1,0 +1,7 @@
+<app-navbar></app-navbar>
+<div *ngFor="let gusto of gusti">
+    <h5 class="card-title">{{ gusto.key }}</h5>
+    <p class="card-text">Colore del pacchetto: {{ gusto.value.colore_pacchetto }}</p>
+    <p class="card-text">Prezzo: {{ gusto.value.prezzo }} euro</p>
+    <hr>
+  </div>
